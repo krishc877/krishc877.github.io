@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	  <head>
+			<style>
+
+			.background{
+				position: absolute;
+				height: 100vh;
+				transition: 1.5s;
+			  transition-timing-function: ease-in;
+
+			}
+			img{
+				height: 3250px;
+			}
+			.background.animation{
+				left:-150vw;
+
+		}
+		.button{
+			position: fixed;
+
+			width: 65vw;
+		  height: 3250px;
+		  background-color: none;
+
+
+			right: 0;
+			bottom:100px;
+
+		}
+		.background.animation2{
+			left:0;
+
+	}
+		.button2{
+			position: fixed;
+
+			width: 65vw;
+		  height: 3250px;
+		  background-color: none;
+
+
+			left: 0;
+			bottom:100px;
+
+		}
+		audio{
+			position:fixed;
+			z-index: 1;
+
+			width:1700px;
+
+		}
+
+
+
+
+			</style>
+
+		    <link rel="stylesheet" type="text/css" href="styles.css">
+	  </head>
+	  <body>
+			<audio controls autoplay>
+
+  <source src="vacation.mp3" type="audio/mpeg">
+
+</audio>
+
+<a href="home.html">
+
+	<div class="containter"></div>
+	</a>
+
+<div class="background">
+
+	<img src="sit2.jpg">
+
+
+</div>
+
+</div> <div class="button" id="pull"onclick="playAnimations()">
+
+</div> <div class="button2" id="pull"onclick="playAnimations2()">
+
+<script
+	src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+	crossorigin="anonymous"></script>
+<script src="myscript.js"></script>
+
+</body>
+
+
+</html>
