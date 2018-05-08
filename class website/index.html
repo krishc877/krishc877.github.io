@@ -48,8 +48,22 @@
 		audio{
 			position:fixed;
 			z-index: 1;
+
 			width:1480px;
-			
+
+		}
+
+		.containter{
+			position: fixed;
+
+			width: 600px;
+			height: 600px;
+			background-color:red;
+
+
+			right: 20vw;
+			top: 30vh;
+			z-index: 2;
 		}
 
 
@@ -58,11 +72,16 @@
 		    <link rel="stylesheet" type="text/css" href="styles.css">
 	  </head>
 	  <body>
-			<audio controls>
+			<audio controls autoplay>
 
   <source src="vacation.mp3" type="audio/mpeg">
 
 </audio>
+
+<a href="home.html">
+
+	<div class="containter"></div>
+	</a>
 
 <div class="background">
 
