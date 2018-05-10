@@ -3,96 +3,43 @@
 	  <head>
 			<style>
 
-			.background{
-				position: absolute;
-				height: 100vh;
-				transition: 1.5s;
-			  transition-timing-function: ease-in;
-
+			body{
+				padding: 0;
+				border: 0;
 			}
+
 			img{
-				height: 2650px;
+
+				height: 100vh;
+				width: 100vw;
+
 			}
-			.background.animation{
-				left:-1350px;
 
-		}
-		.button{
-			position: fixed;
+			.containter{
+				position: fixed;
 
-			width: 740px;
-		  height: 3200px;
-		  background-color: red;
+				width: 600px;
+			  height: 600px;
+			  background-color: none;
 
 
-			right: 0;
-			bottom:100px;
+				right: 20vw;
+				top: 30vh;
+			}
 
-		}
-		.background.animation2{
-			left:0px;
-
-	}
-		.button2{
-			position: fixed;
-
-			width: 740px;
-		  height: 3200px;
-		  background-color: red;
-
-
-			left: 0;
-			bottom:100px;
-
-		}
-		audio{
-			position:fixed;
-			z-index: 1;
-
-			width:1480px;
-
-		}
-
-		.containter{
-			position: fixed;
-
-			width: 600px;
-			height: 600px;
-			background-color:red;
-
-
-			right: 20vw;
-			top: 30vh;
-			z-index: 2;
-		}
 
 
 			</style>
 
 		    <link rel="stylesheet" type="text/css" href="styles.css">
 	  </head>
-	  <body>
-			<audio controls autoplay>
 
-  <source src="vacation.mp3" type="audio/mpeg">
+		<img src="home.jpg">
 
-</audio>
+	<a href="novi.html">
 
-<a href="home.html">
-
-	<div class="containter"></div>
-	</a>
-
-<div class="background">
-
-	<img src="sit2.jpg">
-
-
-</div>
-
-</div> <div class="button" id="pull"onclick="playAnimations()">
-
-</div> <div class="button2" id="pull"onclick="playAnimations2()">
+		<div class="containter"></div>
+		</a>
 
 <script
 	src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
